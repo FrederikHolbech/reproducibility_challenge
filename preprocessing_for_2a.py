@@ -38,7 +38,7 @@ def changeGdf2Mat(dir_path, mode="train"):
         mode_str = 'T'
     else:
         mode_str = 'E'
-    for nSub in range(1, 10):
+    for nSub in [1]:
         # Load the gdf file
         data_filename = dir_path+'BCICIV_2a_gdf/A0{}{}.gdf'.format(nSub, mode_str)
         raw = mne.io.read_raw_gdf(data_filename)  

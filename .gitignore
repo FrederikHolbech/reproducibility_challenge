@@ -1,0 +1,6 @@
+BCICIV_2a_gdf/
+true_labels/
+mymat_raw/
+.venv/
+.DS_Store
+.python-version
