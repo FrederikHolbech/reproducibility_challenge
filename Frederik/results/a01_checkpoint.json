@@ -1,0 +1,57 @@
+{
+  "experiment": "released-checkpoint evaluation",
+  "subject": "A01",
+  "dataset": "BCI Competition IV-2a",
+  "n_test_trials": 288,
+  "correct": 262,
+  "accuracy": 0.9097222222222222,
+  "accuracy_percent": 90.97222222222221,
+  "cohen_kappa": 0.8796296296296297,
+  "paper_table_2_accuracy_percent": 90.97,
+  "absolute_difference_percentage_points": 0.002222222222215464,
+  "confusion_matrix_rows_true_columns_predicted": [
+    [
+      69,
+      2,
+      1,
+      0
+    ],
+    [
+      5,
+      66,
+      1,
+      0
+    ],
+    [
+      1,
+      0,
+      59,
+      12
+    ],
+    [
+      0,
+      0,
+      4,
+      68
+    ]
+  ],
+  "train_mean": 3.6949405862827505e-07,
+  "train_std": 1.0187522452967678e-05,
+  "device": "cpu",
+  "versions": {
+    "python": "3.13.0",
+    "torch": "2.10.0+cpu",
+    "mne": "1.13.2",
+    "numpy": "2.2.1"
+  },
+  "inputs": {
+    "data/processed/A01.npz": "f04e3171100ad99c8238ec2f0f6489805c74f811ae0869b01442a6c263568c4d",
+    "data/raw/A01T.gdf": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3",
+    "data/raw/A01E.gdf": "08709cf61bc0d603b5d491417221cb4d62a5db09b99ec7bc1c09c22dbc44a674",
+    "data/labels/A01T.mat": "b62c9a907eea4d158850e80d7eec5a939d14220cda358a6da78b8897c97b7fa1",
+    "data/labels/A01E.mat": "2d2db43b452842553e1690b045b998607131b0b9160ece7989d65632febecc7d",
+    "models/2a/model_1.pth": "1f8265efba5b5f1962c9614357d413c1b18c03b66cec65c822cc7e20896c7f57"
+  },
+  "inputs_not_present": []
+}
+

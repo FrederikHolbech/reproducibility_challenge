@@ -1,0 +1,10 @@
+# Registered competition data and generated cache
+data/*
+!data/README.md
+
+# Machine-specific environments and caches
+.venv/
+.tools/
+**/__pycache__/
+*.py[cod]
+

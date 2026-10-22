@@ -1,0 +1,8 @@
+# Install PyTorch separately so its build matches the destination GPU/driver.
+# These bounds provide a Python 3.10 environment close to the authors' setup.
+numpy>=1.24,<2
+scipy>=1.10,<2
+scikit-learn>=1.2,<2
+einops>=0.6,<1
+mne==1.5.1
+
